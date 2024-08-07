@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Platform</title>
+    <!-------------Stylesheet-------------------------->
+    <link rel="stylesheet" href="style.css">
+    <!------------------fav-icon------------------------->
+    <link rel="shortcut icon" href="images/fav-icon.jpg">
+    <!---------using-font-awesome---------------------->
+    <script src="https://kit.fontawesome.com/954931eddf.js" crossorigin="anonymous"></script>
+    <!-----------poppins-font-family---------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="blog">
+        <!---------navigation--------------->
+        <div class="navigation">
+            <!--------------logo----------------->
+            <a href="index.html" class="logo">
+                <i class="fas fa-blog"></i>Blog
+
+            </a>
+
+            <!------------post-filter-------------->
+            <nav>
+                <!--------menu-icon------------>
+                <input type="checkbox" class="menu-btn" id="menu-btn">
+                <label for="menu-btn" class="menu-icon">
+                    <span class="nav-icon"></span>
+                </label>
+
+
+
+
+
+
+                <!-----------filter------------->
+                <ul class="blog-filter">
+                    <li class="list blog-filter-active" data-filter="all">All</li>
+                    <li class="list" data-filter="web">Web Design</li>
+                    <li class="list" data-filter="app">App Design</li>
+                    <li class="list" data-filter="new">New</li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <!-----------ad--------------->
+        <div class="ad">
+            <a href="#">
+                <img src="images/ad-home.jpg" alt="ads">
+            </a>
+        </div>
+
+        <!-------------container-------------->
+        <div class="blog-container">
+            <!--------------box-1----------------->
+            <div class="blog-box app">
+                <!-----------img------------->
+                <div class="blog-img">
+                    <img src="images/b-1.jpg" alt="img">
+                    <span class="category">App</span>
+                </div>
+                <!--------------text---------------->
+                <div class="blog-text">
+                    <!---------------title------------------->
+                    <a href="article.html">
+                        <strong>How To Create Ramdan Time App Design</strong>
+                    </a>
+
+                    <!--------time-and-category---------->
+                    <div class="category-time">
+                        <span class="blog-category">App Design</span>
+                        <span class="published-time">12-09-2000</span>
+                    </div>
+
+                    <!-------------publisher-profile-->
+                    <div class="publisher-profile">
+                        <img src="images/p-1.jpg" alt="publisher">
+                        <span>Aritra Dutta</span>
+                    </div>
+                </div>
+            </div>
+             <!--------------box-2----------------->
+            <div class="blog-box web">
+                <!-----------img------------->
+                <div class="blog-img">
+                    <img src="images/b-2.jpg" alt="img">
+                    <span class="category">Web</span>
+                </div>
+                <!--------------text---------------->
+                <div class="blog-text">
+                    <!---------------title------------------->
+                    <a href="#">
+                        <strong>How To Create Ramdan Time App Design</strong>
+                    </a>
+
+                    <!--------time-and-category---------->
+                    <div class="category-time">
+                        <span class="blog-category">Web Design</span>
+                        <span class="published-time">31-09-2017</span>
+                    </div>
+
+                    <!-------------publisher-profile-->
+                    <div class="publisher-profile">
+                        <img src="images/p-1.jpg" alt="publisher">
+                        <span>Avik Kohli</span>
+                    </div>
+                </div>
+            </div>
+             <!--------------box-3----------------->
+            <div class="blog-box new">
+                <!-----------img------------->
+                <div class="blog-img">
+                    <img src="images/b-3.jpg" alt="img">
+                    <span class="category">new</span>
+                </div>
+                <!--------------text---------------->
+                <div class="blog-text">
+                    <!---------------title------------------->
+                    <a href="#">
+                        <strong>How To Create Ramdan Time App Design</strong>
+                    </a>
+
+                    <!--------time-and-category---------->
+                    <div class="category-time">
+                        <span class="blog-category">App Design</span>
+                        <span class="published-time">12-09-2024 </span>
+                    </div>
+
+                    <!-------------publisher-profile-->
+                    <div class="publisher-profile">
+                        <img src="images/p-2.jpg" alt="publisher">
+                        <span>Gourav Das</span>
+                    </div>
+                </div>
+            </div>
+             <!--------------box-4----------------->
+            <div class="blog-box app">
+                <!-----------img------------->
+                <div class="blog-img">
+                    <img src="images/b-4.jpg" alt="img">
+                    <span class="category">App</span>
+                </div>
+                <!--------------text---------------->
+                <div class="blog-text">
+                    <!---------------title------------------->
+                    <a href="#">
+                        <strong>How To Create Ramdan Time App Design</strong>
+                    </a>
+
+                    <!--------time-and-category---------->
+                    <div class="category-time">
+                        <span class="blog-category">App Design</span>
+                        <span class="published-time">12-07-2021</span>
+                    </div>
+
+                    <!-------------publisher-profile-->
+                    <div class="publisher-profile">
+                        <img src="images/p-3.jpg" alt="publisher">
+                        <span>Washim Mondal</span>
+                    </div>
+                </div>
+            </div>
+             <!--------------box-5----------------->
+            <div class="blog-box web">
+                <!-----------img------------->
+                <div class="blog-img">
+                    <img src="images/b-5.jpg" alt="img">
+                    <span class="category">Web</span>
+                </div>
+                <!--------------text---------------->
+                <div class="blog-text">
+                    <!---------------title------------------->
+                    <a href="#">
+                        <strong>How To Create Ramdan Time App Design</strong>
+                    </a>
+
+                    <!--------time-and-category---------->
+                    <div class="category-time">
+                        <span class="blog-category">Web Design</span>
+                        <span class="published-time">12-11-2004</span>
+                    </div>
+
+                    <!-------------publisher-profile-->
+                    <div class="publisher-profile">
+                        <img src="images/p-1.jpg" alt="publisher">
+                        <span>Avik Dutta</span>
+                    </div>
+                </div>
+            </div>
+             <!--------------box-6----------------->
+            <div class="blog-box app">
+                <!-----------img------------->
+                <div class="blog-img">
+                    <img src="images/b-6.jpg" alt="img">
+                    <span class="category">App</span>
+                </div>
+                <!--------------text---------------->
+                <div class="blog-text">
+                    <!---------------title------------------->
+                    <a href="#">
+                        <strong>How To Create Ramdan Time App Design</strong>
+                    </a>
+
+                    <!--------time-and-category---------->
+                    <div class="category-time">
+                        <span class="blog-category">App Design</span>
+                        <span class="published-time">12-09-2010</span>
+                    </div>
+
+                    <!-------------publisher-profile-->
+                    <div class="publisher-profile">
+                        <img src="images/p-3.jpg" alt="publisher">
+                        <span>Aritra Hasan</span>
+                    </div>
+                </div>
+            </div>
+             <!--------------box-7----------------->
+            <div class="blog-box new">
+                <!-----------img------------->
+                <div class="blog-img">
+                    <img src="images/b-7.jpg" alt="img">
+                    <span class="category">New</span>
+                </div>
+                <!--------------text---------------->
+                <div class="blog-text">
+                    <!---------------title------------------->
+                    <a href="#">
+                        <strong>How To Create Ramdan Time App Design</strong>
+                    </a>
+
+                    <!--------time-and-category---------->
+                    <div class="category-time">
+                        <span class="blog-category">App Design</span>
+                        <span class="published-time">12-08-2010</span>
+                    </div>
+
+                    <!-------------publisher-profile-->
+                    <div class="publisher-profile">
+                        <img src="images/p-2.jpg" alt="publisher">
+                        <span>Him Roy</span>
+                    </div>
+                </div>
+            </div>
+             <!--------------box-8----------------->
+            <div class="blog-box app">
+                <!-----------img------------->
+                <div class="blog-img">
+                    <img src="images/b-8.jpg" alt="img">
+                    <span class="category">App</span>
+                </div>
+                <!--------------text---------------->
+                <div class="blog-text">
+                    <!---------------title------------------->
+                    <a href="#">
+                        <strong>How To Create Ramdan Time App Design</strong>
+                    </a>
+
+                    <!--------time-and-category---------->
+                    <div class="category-time">
+                        <span class="blog-category">App Design</span>
+                        <span class="published-time">12-05-2019</span>
+                    </div>
+
+                    <!-------------publisher-profile-->
+                    <div class="publisher-profile">
+                        <img src="images/p-3.jpg" alt="publisher">
+                        <span>Asir Mondal</span>
+                    </div>
+                </div>
+            </div>
+             <!--------------box-9----------------->
+            <div class="blog-box app">
+                <!-----------img------------->
+                <div class="blog-img">
+                    <img src="images/b-5.jpg" alt="img">
+                    <span class="category">App</span>
+                </div>
+                <!--------------text---------------->
+                <div class="blog-text">
+                    <!---------------title------------------->
+                    <a href="#">
+                        <strong>How To Create Ramdan Time App Design</strong>
+                    </a>
+
+                    <!--------time-and-category---------->
+                    <div class="category-time">
+                        <span class="blog-category">App Design</span>
+                        <span class="published-time">10-09-2017</span>
+                    </div>
+
+                    <!-------------publisher-profile-->
+                    <div class="publisher-profile">
+                        <img src="images/p-2.jpg" alt="publisher">
+                        <span>Aritra Roy</span>
+                    </div>
+                </div>
+            </div>
+             <!--------------box-10----------------->
+            <div class="blog-box web">
+                <!-----------img------------->
+                <div class="blog-img">
+                    <img src="images/b-3.jpg" alt="img">
+                    <span class="category">Web</span>
+                </div>
+                <!--------------text---------------->
+                <div class="blog-text">
+                    <!---------------title------------------->
+                    <a href="#">
+                        <strong>How To Create Ramdan Time App Design</strong>
+                    </a>
+
+                    <!--------time-and-category---------->
+                    <div class="category-time">
+                        <span class="blog-category">Web Design</span>
+                        <span class="published-time">12-02-2003</span>
+                    </div>
+
+                    <!-------------publisher-profile-->
+                    <div class="publisher-profile">
+                        <img src="images/p-1.jpg" alt="publisher">
+                        <span>Ajay Mallick</span>
+                    </div>
+                </div>
+            </div>
+             <!--------------box-11----------------->
+            <div class="blog-box app">
+                <!-----------img------------->
+                <div class="blog-img">
+                    <img src="images/b-1.jpg" alt="img">
+                    <span class="category">App</span>
+                </div>
+                <!--------------text---------------->
+                <div class="blog-text">
+                    <!---------------title------------------->
+                    <a href="#">
+                        <strong>How To Create Ramdan Time App Design</strong>
+                    </a>
+
+                    <!--------time-and-category---------->
+                    <div class="category-time">
+                        <span class="blog-category">App Design</span>
+                        <span class="published-time">11-09-2008</span>
+                    </div>
+
+                    <!-------------publisher-profile-->
+                    <div class="publisher-profile">
+                        <img src="images/p-3.jpg" alt="publisher">
+                        <span>Ayan Khamaru</span>
+                    </div>
+                </div>
+            </div>
+             <!--------------box-12----------------->
+            <div class="blog-box web">
+                <!-----------img------------->
+                <div class="blog-img">
+                    <img src="images/b-6.jpg" alt="img">
+                    <span class="category">Web</span>
+                </div>
+                <!--------------text---------------->
+                <div class="blog-text">
+                    <!---------------title------------------->
+                    <a href="#">
+                        <strong>How To Create Ramdan Time App Design</strong>
+                    </a>
+
+                    <!--------time-and-category---------->
+                    <div class="category-time">
+                        <span class="blog-category">Web Design</span>
+                        <span class="published-time">12-07-2001</span>
+                    </div>
+
+                    <!-------------publisher-profile-->
+                    <div class="publisher-profile">
+                        <img src="images/p-2.jpg" alt="publisher">
+                        <span>Raja Dutta</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------ad----------------->
+        <div class="ad">
+            <a href="#">
+                <img src="images/ad-home.jpg" alt="ads">
+            </a>
+        </div>
+
+    </section>
+
+    <!----------footer------------------->
+    <footer>
+        <span class="copyright">copyright 2020-GoingToBlog</span>
+        <!--------social links---------------->
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter" ></i></a>
+            <a href="#"><i class="fab fa-instagram" ></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <!----------------JQuery---------------------->
+    <script type="text/javascript" src="jsquery.js"></script>
+    <!----script----->
+    <script type="text/javascript">
+        /*blog-filter-menu------------------*/
+        $(document).on('click', '.blog-filter li', function(){
+            $(this).addClass('blog-filter-active').siblings().removeClass('blog-filter-active')
+        });
+
+        /*post-filter--------------------------------------*/
+        $(document).ready(function(){
+            $('.list').click(function(){
+                const value=$(this).attr('data-filter');
+                if(value=='all'){
+                    $('.blog-box').show('1000');
+                }
+                else{
+                    $('.blog-box').not('.'+value).hide('1000');
+                    $('.blog-box').filter('.'+value).show('1000');
+                }
+            });
+        });
+
+
+        /*for-fix-filter-menu------------------------------------*/
+        $(window).scroll(function(){
+            if($(document).scrollTop()>80){
+                $('nav').addClass('fix-nav');
+            }else{
+                $('nav').removeClass('fix-nav');
+            }
+        })
+    </script>
+</body>
+</html>
